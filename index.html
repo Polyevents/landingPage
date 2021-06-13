@@ -4,8 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Polyevents | Making events tradable</title>
+	<meta name="description" content="Polyevents - Trade on real life events">
+	<meta name="keywords" content="polyevents, trading, mpl, dream11, betting, probo, kalshi">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" media="all">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-TCP87VH4L4"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-TCP87VH4L4');
+	</script>
 </head>
 <body style="font-family: Poppins">
 
@@ -16,6 +27,7 @@
         <nav class="relative z-50 h-24 select-none" x-data="{ showMenu: false }">
             <div class="container relative flex flex-wrap items-center justify-between h-24 mx-auto overflow-hidden font-medium border-b border-gray-200 md:overflow-visible lg:justify-center sm:px-4 md:px-2">
                 <div class="flex items-center justify-start w-1/4 h-full pr-4">
+					<img src="logo.svg" class="w-1/2 md:w-1/5"></img>
                     <a href="#_" class="inline-block py-4 md:py-0">
                         <span class="p-1 text-xl font-black leading-none text-gray-900"><span class="">Polyevents</span><span class=""></span></span>
                     </a>
@@ -34,7 +46,7 @@
                         </div>
                         <div class="flex flex-col items-start justify-end w-full pt-4 md:items-center md:w-1/3 md:flex-row md:py-0">
                             <a href="#" class=""></a>
-                            <a href="#_" class="inline-flex items-center w-full px-6 py-3 text-sm font-medium leading-4 text-white bg-indigo-600 md:px-3 md:w-auto lg:px-5 hover:bg-indigo-500 focus:outline-none md:focus:ring-2 focus:ring-0 focus:ring-offset-2 focus:ring-indigo-600 rounded-md">Explore our blog</a>
+                            <a href="https://medium.com/@polyeventshq" target="_blank" rel="noopener noreferrer" class="inline-flex items-center w-full px-6 py-3 text-sm font-medium leading-4 text-white bg-indigo-600 md:px-3 md:w-auto lg:px-5 hover:bg-indigo-500 focus:outline-none md:focus:ring-2 focus:ring-0 focus:ring-offset-2 focus:ring-indigo-600 rounded-md">Explore our blog</a>
                         </div>
                     </div>
                 </div>
@@ -52,13 +64,13 @@
         <!-- Main Hero Content -->
         <div class="container max-w-lg px-4 mx-auto text-left md:max-w-none md:text-center py-15 md:mt-32 mt-20">
             <h1 class="text-5xl font-extrabold leading-10 tracking-tight text-left text-gray-900 md:text-center md:text-6xl lg:text-7xl leading-none"><span class="inline md:block">Making events</span> <span class="relative mt-2 text-transparent bg-gradient-to-br to-indigo-500 md:inline-block bg-clip-text from-indigo-700">Tradable</span></h1>
-            <div class="mx-auto mt-5 md:max-w-lg md:text-center lg:text-lg md:mt-8 text-gray-800">Polyevents allows you to trade directly on the outcome of events that matter to you!</div>
+            <h1 class="mx-auto mt-5 md:max-w-lg md:text-center lg:text-lg md:mt-8 text-gray-800">Polyevents allows you to trade directly on the outcome of events that matter to you!</h1>
             <div class="flex flex-col items-center mt-12 text-center">
                 <span class="relative inline-flex w-full md:w-auto">
-                    <a href="#_" type="button" class="inline-flex items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white bg-indigo-600 border border-transparent md:w-auto hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600 rounded-md">Join the Waitlist</a>
-                    <span class="absolute top-0 right-0 px-2 py-1 -mt-3 -mr-6 text-xs font-medium leading-tight text-white bg-green-400 rounded-full invisible">only $15/mo</span>
+                    <a href="https://forms.gle/SJHBk9gBF42Pp2gSA" type="button" class="inline-flex items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white bg-indigo-600 border border-transparent md:w-auto hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600 rounded-md">Get Early Access</a>
+                    <span class="absolute top-0 right-0 px-2 py-1 -mt-3 -mr-6 text-xs font-medium leading-tight text-white bg-green-400 rounded-full invisible">$15 only</span>
                 </span>
-                <a href="#" class="mt-3 text-sm text-indigo-600">Learn More</a>
+                <h2 class="mt-3 text-md text-indigo-600 underline">Launching next month</h2>
             </div>
         </div>
         <!-- End Main Hero Content -->
@@ -67,7 +79,7 @@
 </section>
 
 <!-- Section 2 -->
-<section class="w-full bg-white pt-7 pb-7 md:pb-16 md:pt-16">
+<section id="more" class="w-full bg-white pt-7 pb-7 md:pb-16 md:pt-16">
     <div class="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
 
         <!-- Image -->
@@ -136,9 +148,7 @@
 
         <!-- Bottom Text -->
         <h2 class="text-left text-gray-500 xl:text-xl">
-            All socially relevant events with a defnitive future outcome can be traded in polyevents. Just create an event, and engage with your
-
-        </h2>
+            All socially relevant events with a defnitive future outcome can be traded on Polyevents. Just create an event, and engage with your friends/audience to bring their skin to the game. The events are settled by the pre-agreed source of data by the creator of the event.</h2>
     </div>
 </section>
 
@@ -147,11 +157,11 @@
     <div class="max-w-6xl px-4 px-10 mx-auto border-solid lg:px-8">
         <div class="flex flex-col items-start leading-7 text-gray-900 border-0 border-gray-200 lg:items-center lg:flex-row">
             <div class="box-border flex-1 text-center border-solid sm:text-left">
-                <h2 class="m-0 font-semibold leading-tight tracking-tight text-left text-black border-0 border-gray-200 text-2xl sm:text-4xl">Interested?</h2>
+                <h2 class="m-0 font-semibold leading-tight tracking-tight text-left text-black border-0 border-gray-200 text-2xl sm:text-4xl">Interested in Polyevents?</h2>
                 <p class="mt-2 text-xl text-left text-gray-900 border-0 border-gray-200 sm:text-xl text-lg">Launching soon. Join the list</p>
             </div>
-            <a href="#_" class="inline-flex items-center justify-center w-full px-5 py-4 mt-6 ml-0 font-sans text-base leading-none text-white no-underline bg-indigo-600 border border-indigo-600 border-solid cursor-pointer md:w-auto lg:mt-0 hover:bg-indigo-700 hover:border-indigo-700 hover:text-white focus-within:bg-indigo-700 focus-within:border-indigo-700 focus-within:text-white sm:text-lg lg:ml-6 md:text-xl rounded-md">
-                Join the waitlist
+            <a href="https://forms.gle/SJHBk9gBF42Pp2gSA" class="inline-flex items-center justify-center w-full px-5 py-4 mt-6 ml-0 font-sans text-base leading-none text-white no-underline bg-indigo-600 border border-indigo-600 border-solid cursor-pointer md:w-auto lg:mt-0 hover:bg-indigo-700 hover:border-indigo-700 hover:text-white focus-within:bg-indigo-700 focus-within:border-indigo-700 focus-within:text-white sm:text-lg lg:ml-6 md:text-xl rounded-md">
+                Sign up now
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 ml-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <line x1="5" y1="12" x2="19" y2="12"></line>
                     <polyline points="12 5 19 12 12 19"></polyline>
@@ -167,8 +177,24 @@
     <div class="container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row">
         <a href="#_" class="text-xl font-black leading-none text-gray-900 select-none logo">Polyevents<span class="text-indigo-600">.</span></a>
         <p class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">© 2021 Polyevents- Making Events Tradable</p>
+		        <span class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
+            <a href="https://www.instagram.com/polyeventshq/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-gray-500">
+                <span class="sr-only">Instagram</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+                </svg>
+            </a>
+
+            <a href="https://twitter.com/polyeventshq" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-gray-500">
+                <span class="sr-only">Twitter</span>
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+                </svg>
+            </a>
+        </span>
     </div>
 </section>
+
 
 <!-- AlpineJS Library -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.0/alpine.js"></script>

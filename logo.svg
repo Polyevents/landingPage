@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1470" height="1470" viewBox="0 0 1470 1470">
+  <g id="Group_111" data-name="Group 111" transform="translate(818 -1466)">
+    <g id="Group_110" data-name="Group 110" transform="translate(-818 1466)">
+      <circle id="Ellipse_20" data-name="Ellipse 20" cx="735" cy="735" r="735" fill="#fff"/>
+      <g id="Group_93" data-name="Group 93" transform="translate(356 361)">
+        <path id="Intersection_53" data-name="Intersection 53" d="M0,0V374.433C208.548,373.351,377.39,206.305,378.5,0Z" transform="translate(378.504 374.433) rotate(180)" fill="#ffd166"/>
+        <path id="Intersection_54" data-name="Intersection 54" d="M0,374.433V0C208.548,1.082,377.389,168.128,378.5,374.433Z" transform="translate(378.504 748.866) rotate(180)" fill="#066786"/>
+        <path id="Intersection_51" data-name="Intersection 51" d="M0,374.433V0C208.548,1.082,377.39,168.128,378.5,374.433Z" transform="translate(378.504 374.438)" fill="#06d6a0"/>
+        <path id="Intersection_52" data-name="Intersection 52" d="M0,0V374.433C208.548,373.351,377.39,206.305,378.5,0Z" transform="translate(378.504)" fill="#ef476f"/>
+      </g>
+    </g>
+  </g>
+</svg>
